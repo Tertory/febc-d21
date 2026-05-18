@@ -1,0 +1,83 @@
+#root{
+  display: flex;
+  justify-content: center;
+}
+
+.bigwrap{
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content-wrap{
+  display: flex;
+  flex-direction: column;
+}
+
+.content-wrap form{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+}
+
+.btnSet{
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+.btnSet button{
+  font-size: 20px;
+}
+
+.preparewording{
+  margin-bottom: 1.5vh;
+}
+
+form input{
+  width: 20vh;
+  font-size: 15px;
+}
+
+.fa-toggle-off{
+  font-size: 30px;
+}
+
+.fa-toggle-on{
+  font-size: 30px;
+}
+
+.dark {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.dark body{
+    background-color: #1a1a1a;
+}
+
+.dark h1{
+    color: #ffffff;
+}
+
+.light {
+    background-color: #ffffff;
+    color: #1a1a1a;
+}
+
+.light body{
+    background-color: #ffffff;
+}
+
+.light h1{
+    color: #1a1a1a;
+}
+
+/* .content-wrap h1 .light{
+  color: #1a1a1a;
+} */
